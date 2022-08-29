@@ -122,7 +122,8 @@ end
 local PropertyTweenOut = {
 	Text = "TextTransparency",
 	Fram = "BackgroundTransparency",
-	Imag = "ImageTransparency"
+	Imag = "ImageTransparency",
+	Stoke = "Transparency"
 }
 
 local function FadeProperty(Object)
