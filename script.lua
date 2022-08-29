@@ -193,7 +193,6 @@ return {
 			NewLabel.Size = UDim2.new(1, 0, 0, Y);
 			NewLabel.Position = UDim2.new(-1, 20, 0, CalculateBounds(CachedObjects).Y + (Padding * #CachedObjects));
       local UIStroke = Instance.new("UIStroke", NewLabel)
-      Stroke.Parent = MainScreen
       Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
       Stroke.Color = Color3.fromRGB(255,255,255)
       Stroke.LineJoinMode = Enum.LineJoinMode.Round
