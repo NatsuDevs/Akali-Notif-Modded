@@ -193,11 +193,11 @@ return {
 			NewLabel.Size = UDim2.new(1, 0, 0, Y);
 			NewLabel.Position = UDim2.new(-1, 20, 0, CalculateBounds(CachedObjects).Y + (Padding * #CachedObjects));
       local UIStroke = Instance.new("UIStroke", NewLabel)
-      Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
-      Stroke.Color = Color3.fromRGB(255,255,255)
-      Stroke.LineJoinMode = Enum.LineJoinMode.Round
-      Stroke.Thickness = 2 
-      Stroke.Transparency = 0.7
+      UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+      UIStroke.Color = Color3.fromRGB(255,255,255)
+      UIStroke.LineJoinMode = Enum.LineJoinMode.Round
+      UIStroke.Thickness = 2 
+      UIStroke.Transparency = 0.7
 			if (Title) then
 				local NewTitle = TitleLabel(Title);
 				NewTitle.Size = UDim2.new(1, -10, 0, 26);
